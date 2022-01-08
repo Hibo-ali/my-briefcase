@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Oswald:wght@300&family=Poppins:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/feather.jpg);
+   
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+/* .img-container {
+    background-image: url(../images/main.jpg);
+    width: 100%;
+} */
+
+h1 h2 {
+    font-family: "lora", serif;
+}
+
+h1 {
+    letter-spacing: 2px;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(199, 36, 77);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* margin-top: 60px; */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+
+h2 {
+    letter-spacing: 2px;
+    font-size: 40px;
+    position: fixed;
+    top: 50%;
+    left: 44%;
+    margin-top: -20px;
+    margin-left: -100px;
+    text-align: center;
+    color: rgb(218, 216, 216);
+}
+
+
+
+.btn{
+    background: transparent;
+    padding: 10px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    position: fixed;
+    top: 65%;
+    left: 49%;
+    margin-top: -20px;
+    margin-left: -100px;
+    color: #fff;
+    border: solid ;
+
+}
+
+.btn:hover {
+    border-color: rgb(199, 36, 77);
+    transition: 0.3s ease;
+}
+
+.icons {
+    font-size: 38px;
+    letter-spacing: 25px;
+    display: flex;
+    position: fixed;
+    top: 95%;
+    left: 50%;
+    margin-top: -20px;
+    margin-left: -100px;
+
+}
+
+.icons i{
+    color: rgb(218, 216, 216);
+}
+
+.icons i:hover {
+    color: rgb(199, 36, 77);
+    transition: 0.3s ease;
+}
