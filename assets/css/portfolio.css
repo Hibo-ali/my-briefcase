@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Oswald:wght@300&family=Poppins:wght@100&display=swap");
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav div {
+    height: 4px;
+    margin: 5px 0;
+    transition: 0.3s;
+    border-radius: 25px;
+    background-color: rgb(199, 36, 77);
+  }
+  
+  .nav {
+    width: 30px;
+    display: block;
+    margin: 1em 0 0 1e;
+  }
+  
+  .about {
+    width: 30px;
+  }
+  
+  .my-work {
+    width: 20px;
+  }
+  
+  .contact {
+    width: 25px;
+  }
+  
+  .nav:hover div {
+    width: 30px;
+  }
+
+  html, body {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/code.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .h-r, img {
+      opacity: 0.8;
+
+  }
