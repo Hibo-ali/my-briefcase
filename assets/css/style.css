@@ -74,6 +74,7 @@ h1 {
 h2 {
   font-family: "poppins-medium" sans-serif;
   letter-spacing: 2px;
+  color: rgb(218, 216, 216);
 
   max-width: 900px;
 
@@ -85,7 +86,7 @@ h2 {
   margin-top: -20px;
   margin-left: -100px;
   text-align: center;
-  color: rgb(218, 216, 216);
+  
 }
 
 .btn a {

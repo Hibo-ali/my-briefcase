@@ -37,13 +37,90 @@
   }
 
   html, body {
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/code.jpg);
-    background-repeat: no-repeat;
+    background-image: url(../images/code.jpg);
+     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    /* background-position: 0 0 center;  */
   }
 
-  .h-r, img {
-      opacity: 0.8;
+  h1 {
+    letter-spacing: 2px;
+    font-family: "poppins-bold", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(199, 36, 77);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+  }
+
+  .sub-section-alternative p {
+    font-family: "poppins-medium" sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgb(218, 216, 216);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    top: 14%;
+    left: 43%;
+    margin-top: -50px;
+    margin-left: -100px;
+  }
+
+  .sub-section-alternative {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      
+  }
+
+  .project-card a img{
+      width: 350px;
+      height: 520px;
+      position: relative;
+      top: 30%;
+      left: 
+      
+      /* border 1px solid #c7244d */
+  }
+
+  .project-container {
+      display: flex;
+      justify-content: space-around; 
+  }
+
+  .h-r, img:hover {
+      opacity: 0.7;
+      transition: 0.3s ease;
+
 
   }
+
+  .icons {
+    font-size: 38px;
+    letter-spacing: 25px;
+    display: flex;
+    position: fixed;
+    top: 95%;
+    left: 50%;
+    margin-top: -20px;
+    margin-left: -100px;
+  }
+
+  
+  .icons i {
+    color: rgb(218, 216, 216);
+  }
+  
+  .icons i:hover {
+    color: rgb(199, 36, 77);
+    transition: 0.3s ease;
+  }
+
