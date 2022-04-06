@@ -14,4 +14,5 @@
 * Hibo Ali
 
 
-## Stillshots
+## Screenshot
+!{/images/portfolio.png}
