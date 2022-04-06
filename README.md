@@ -1,5 +1,5 @@
 # my-briefcase
-## Deployed URL: https://hibo-ali.github.io/my-briefcase/
+
 
 ## Portfolio
 
@@ -15,4 +15,6 @@
 
 
 ## Screenshot
-!{/images/portfolio.png}
+![](images/portfolio.png)
+
+## Deployed URL: https://hibo-ali.github.io/my-briefcase/
